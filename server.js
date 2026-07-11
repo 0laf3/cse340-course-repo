@@ -50,6 +50,14 @@ app.get('/projects', async (req, res) => {
 app.get('/categories', async (req, res) => {
     const title = 'Service Project Categories';
     res.render('categories', { title });
+<<<<<<< HEAD
+=======
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running at http://127.0.0.1:${PORT}`);
+  console.log(`Environment: ${NODE_ENV}`);
+>>>>>>> 200675f (Initial Site Creation)
 });
 
 app.listen(PORT, async () => {
