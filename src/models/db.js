@@ -14,9 +14,13 @@ import { Pool } from 'pg';
  */
 const pool = new Pool({
     connectionString: process.env.DB_URL,
+<<<<<<< HEAD
     ssl: {
         rejectUnauthorized: false
     }
+=======
+    ssl: true
+>>>>>>> 2404ab1 (W02 Learning Activity: Displaying Database results in EJS)
 });
 
 /**
