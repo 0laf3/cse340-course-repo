@@ -50,8 +50,19 @@ app.get('/projects', async (req, res) => {
 app.get('/categories', async (req, res) => {
     const title = 'Service Project Categories';
     res.render('categories', { title });
+<<<<<<< HEAD
+=======
 });
 
+<<<<<<< HEAD
+app.listen(PORT, () => {
+  console.log(`Server is running at http://127.0.0.1:${PORT}`);
+  console.log(`Environment: ${NODE_ENV}`);
+>>>>>>> 200675f (Initial Site Creation)
+});
+
+=======
+>>>>>>> 2404ab1 (W02 Learning Activity: Displaying Database results in EJS)
 app.listen(PORT, async () => {
   try {
     await testConnection();
